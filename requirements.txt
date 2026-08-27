@@ -6,3 +6,4 @@ streamlit
 streamlit-webrtc
 joblib
 pandas
+sqlite-web
