@@ -1,0 +1,28 @@
+- ------------------------------------------------------------------- -
+
+# Terminal 1 → Tu aplicación Streamlit
+
+# Primero entrar al entorno virtual:
+    venv\Scripts\activate
+
+# En la carpeta del proyecto:
+    streamlit run app.py
+
+# Se abre en:
+    http://localhost:8501
+
+- ------------------------------------------------------------------ -
+
+# ABRIR NUEVA TERMINAL CON CTRL + SHIFT + Ñ
+
+- ------------------------------------------------------------------ -
+
+# Terminal 2 → El visor de SQLite
+
+# Abrir otra terminal (sin cerrar la primera) y ejecutar:
+    sqlite_web datos/usuarios.db
+
+# Abrir el enlace:
+    http://localhost:8080
+
+- ------------------------------------------------------------------ -
