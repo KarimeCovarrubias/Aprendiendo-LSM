@@ -1,0 +1,8 @@
+opencv-python
+mediapipe==0.10.13
+scikit-learn
+bcrypt
+streamlit
+streamlit-webrtc
+joblib
+pandas

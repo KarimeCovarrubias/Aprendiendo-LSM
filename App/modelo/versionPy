@@ -1,0 +1,5 @@
+import cv2
+import mediapipe as mp
+
+print("Versión de OpenCV:", cv2.__version__)
+print("Versión de MediaPipe:", mp.__version__)
