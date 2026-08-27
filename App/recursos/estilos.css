@@ -1,0 +1,31 @@
+/*
+Estilos opcionales para la app de LSM.
+leyendo este archivo desde app.py
+e insertándolo dentro de una etiqueta de estilos con st.markdown.
+*/
+
+/* Botones principales: bordes redondeados y color más llamativo */
+.stButton button {
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+/* Barra de progreso con color de acento */
+.stProgress > div > div {
+    background-color: #4CAF50;
+}
+
+/* Tarjetas (contenedores con borde) con esquinas más suaves */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 14px;
+}
+
+/* Métricas (racha, XP) un poco más grandes para que resalten */
+div[data-testid="stMetricValue"] {
+    font-size: 1.6rem;
+}
+
+/* Subtítulos de letra, centrados */
+h3 {
+    text-align: center;
+}
