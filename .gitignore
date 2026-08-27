@@ -1,0 +1,19 @@
+# Entorno virtual (cada máquina crea el suyo desde requirements.txt)
+venv/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Base de datos local (contiene datos de usuarios, no se comparte en el repo)
+App/datos/usuarios.db
+
+# El dataset y el modelo entrenado pueden pesar bastante;
+# si prefieres compartirlos entre tus máquinas por git, comenta estas dos líneas.
+# App/datos/dataset_letras.csv
+App/modelo/modelo_entrenado.pkl
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
